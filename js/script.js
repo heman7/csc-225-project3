@@ -29,7 +29,7 @@ jQuery(document).ready(function ($){
                     
                 var books = response.data;
                 var booksDetail='<div class="card" style="width: 25rem;">';
-                var image='<img src="' + books.cover + '" class = "card-img-top" alt="'+ books.title +' cover">';
+                var image='<img src="' + books.cover + '" class = "card-img-top size" alt="'+ books.title +' cover">';
                 //booksDetail += '<img src="' + books.cover + '" class = "card-img-top" alt="'+ books.title +' cover">';
                 booksDetail += image;
                 booksDetail +='<div class="card-body">';
