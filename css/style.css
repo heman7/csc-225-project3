@@ -1,0 +1,19 @@
+body{
+    font-family: cursive;
+    background-image: url(../image/flower.jpg);
+    background-size: cover;
+    min-height: 100%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.hover-invert:not(.active):hover{
+    color:white;
+    background: pink;
+}
+
+.list{
+    text-align: center;
+}
